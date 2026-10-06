@@ -1,0 +1,21 @@
+def calcER(EC, FC):
+  ER = (EC / FC) * 100
+  return ER
+
+for val in t:
+  print(val)
+
+for letter in "banana":
+  print(letter)
+
+EC = [23, 5, 345]
+FC = [78, 203, 424]
+for i in range(3):
+  print( calcER(EC[i],FC[i]) )
+
+if i<5:
+  print(i)
+elif i<10:
+  print(2*i)
+else:
+  print(3*i)
